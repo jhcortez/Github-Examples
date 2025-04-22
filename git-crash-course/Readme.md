@@ -30,7 +30,23 @@ cd /workspace/temp
 ## HTTPS
 ```sh
 git clone https://github.com/jhcortez/Github-Examples.git
+cd GitHub-Examples
 ```
+
+You'll need to generate a Personal Access Token (PAT)
+https://github.com/settings/personal-access-tokens
+
+You will use the PAT as your password when you login
+
+Give it access to contents to commits
+
+## SSH
+
+```ssh
+git clone git@github.com:jhcortez/Github-Examples.git
+cd GitHub-Examples
+```
+
 ## Commits
 
 When we want to commit code we can write git commit which will open uo the commit edit message in the editor of choice.
