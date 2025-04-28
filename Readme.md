@@ -194,9 +194,49 @@ Make the commit and commiting message withour opening an editor
 git commit -m "Add another message"
 ```
 ## Branches
+
+List of branches
+
+```
+git branch
+```
+
+Create a new branch
+
+```
+git branch branch-name
+```
+
+Checkout branch
+
+```
+git checkout branch-name
+```
+
 ## Remote
+
+Usually add remote via upstream when adding a branch
+
+```sh
+git remote add ...
+git branch -u origin new-feature
+```
+
 ## Stashing
+
+```
+git stash list
+git stash
+git stash save stash-name
+git stash apply
+git stash pop
+```
 ## Merging
+
+```
+git checkout branch-name
+git merge main
+```
 ## Add
 When we want to stage changes that will be included in the commit we can use the . to add all possible files.
 ```
