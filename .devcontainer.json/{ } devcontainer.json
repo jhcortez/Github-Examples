@@ -9,7 +9,6 @@
         }
     },
     "features":{
-        "ghcr.io/dhoeric/features/terraformer:1": {},
-        "ghcr.io/devcontainers/features/github-cli:1": {}
+        "ghcr.io/devcontainers/features/terraform:1": {}
     }
 }
