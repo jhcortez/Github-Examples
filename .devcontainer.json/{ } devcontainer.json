@@ -1,0 +1,15 @@
+{
+    "name": "basic configure",
+    "customizations": {
+        "vscode": {
+            "extension": [
+                "mhutchie.git-graph",
+                "phil1294.git-log--graph"
+            ]
+        }
+    },
+    "features":{
+        "ghcr.io/dhoeric/features/terraformer:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    }
+}
